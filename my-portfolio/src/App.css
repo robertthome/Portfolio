@@ -1,0 +1,12 @@
+.recipe {
+  height: 500px;
+  width: 700px;
+}
+
+.recipe-socials {
+  display: flex;
+}
+
+.contact-socials {
+  display: flex;
+}
