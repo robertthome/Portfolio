@@ -1,3 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* background-image: url(https://media.istockphoto.com/photos/close-up-of-a-black-slate-texture-background-stone-grunge-texture-picture-id1268759368?b=1&k=20&m=1268759368&s=170667a&w=0&h=DIY4qKF5cJYL4uO8C2OoxUMWaw34_j_TPhT7tZXKw5U=); */
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  margin: 10px 10px;
+}
+
+/* nav/home */
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero-section {
+  position: absolute; /* or absolute */
+  top: 30%;
+  width: 50%;
+}
+
+.hero-name {
+  font-size: 8em;
+}
+
+.hero-info {
+  font-size: 6em;
+}
+
+/*  */
+
 .recipe {
   height: 500px;
   width: 700px;
