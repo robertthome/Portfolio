@@ -20,24 +20,26 @@ body {
 }
 
 .hero-section {
-  position: absolute; /* or absolute */
-  top: 30%;
-  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .hero-name {
-  font-size: 8em;
+  font-size: 5em;
 }
 
 .hero-info {
-  font-size: 6em;
+  font-size: 3em;
 }
 
-/*  */
+/* RecipeBookCard */
 
 .recipe {
-  height: 500px;
-  width: 700px;
+  height: 20em;
+  width: 40em;
 }
 
 .recipe-socials {
@@ -46,4 +48,65 @@ body {
 
 .contact-socials {
   display: flex;
+}
+
+/* About Page */
+
+.about-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.about-text {
+  font-size: 2em;
+}
+
+/* Memorygamecard */
+
+.memory-game {
+  height: 20em;
+  width: 40em;
+}
+
+.project-socials {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-socials {
+  display: flex;
+}
+
+/* Project pages */
+
+.projects {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+
+.github {
+  margin-right: 5em;
+}
+
+.recipe-card,
+.memory-card {
+  border: white solid 2px;
+}
+
+.proj-title {
+  font-size: 2em;
+}
+
+.proj-h1 {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  font-size: 3em;
 }

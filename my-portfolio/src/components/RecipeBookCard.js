@@ -7,11 +7,11 @@ function RecipeBookCard() {
   return (
     <div className="recipe-card">
       <div className="recipe-main">
-        <h1>Recipe Book</h1>
+        <h1 className="proj-title">Recipe Book</h1>
         <img className="recipe" src={recipebook} alt="project website" />
       </div>
-      <div className="recipe-socials">
-        <a href="https://github.com/robertthome/RecipeBook">
+      <div className="project-socials">
+        <a className="github" href="https://github.com/robertthome/RecipeBook">
           <AiFillGithub size={75} />
         </a>
         <a href="https://616d8fc872b9070008fdd60d--wonderful-pare-2a1eec.netlify.app/">
