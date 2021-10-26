@@ -5,7 +5,7 @@ import MemoryGameCard from "../components/MemoryGameCard";
 function Projects() {
   return (
     <div >
-      <h1 className='proj-h1'>PROJECTS</h1>
+      <h1 className='proj-h1'>PROJECTS 2021</h1>
       <div className='projects'>
       <RecipeBookCard />
       <MemoryGameCard />
