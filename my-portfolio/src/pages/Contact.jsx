@@ -1,6 +1,6 @@
 import React from "react";
 import { AiFillLinkedin, AiFillGithub } from 'react-icons/ai'
-
+import Resume from "../components/Resume";
 function Contact() {
   return (
     <div className='contacts'>
@@ -13,6 +13,7 @@ function Contact() {
         <AiFillLinkedin size={75}/>
       </a>
       </div>
+      <Resume />
     </div>
   );
 }
