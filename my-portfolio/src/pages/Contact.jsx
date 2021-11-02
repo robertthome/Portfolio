@@ -13,7 +13,9 @@ function Contact() {
         <AiFillLinkedin size={75}/>
       </a>
       </div>
+      <div className='resume-com'>
       <Resume />
+      </div>
     </div>
   );
 }

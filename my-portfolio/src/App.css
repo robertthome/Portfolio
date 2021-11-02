@@ -78,6 +78,7 @@ body {
 
 .contact-socials {
   display: flex;
+  justify-content: center;
 }
 
 /* Project pages */
@@ -109,4 +110,22 @@ body {
   justify-content: center;
   margin-top: 5%;
   font-size: 3em;
+}
+
+/* Contact */
+
+.contacts {
+  margin-top: 20%;
+}
+
+.resume-com {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5%;
+  font-size: 32px;
 }
