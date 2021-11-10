@@ -1,0 +1,10 @@
+.hero-section {
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  margin: 20em 20em;
+}
+
+.hero-pic {
+  height: 45em;
+}
