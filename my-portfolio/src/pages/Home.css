@@ -2,9 +2,17 @@
   display: grid;
   align-items: center;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-  margin: 20em 20em;
+  margin-top: 5em;
 }
 
 .hero-pic {
-  height: 45em;
+  height: 40em;
+}
+
+.hero-name {
+  font-size: 50px;
+}
+
+.hero-text {
+  margin-right: 7em;
 }
