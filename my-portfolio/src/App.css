@@ -11,3 +11,11 @@ body {
   color: white;
   margin: 10px 10px;
 }
+
+@media (max-width: 1024px) {
+  body {
+    background-image: url('./images/blue.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+}
