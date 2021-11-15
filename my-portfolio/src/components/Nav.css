@@ -16,9 +16,10 @@
   height: 300px;
   margin: 20px;
   border-radius: 30px;
-  background-image: url(/Users/robertthome/professional/Portfolio/my-portfolio/src/images/propic.jpeg);
+  background-color: grey;
+  /* background-image: url(/Users/robertthome/professional/Portfolio/my-portfolio/src/images/propic.jpeg);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
   font-size: 100px;
 }
 
