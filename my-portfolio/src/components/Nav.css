@@ -4,6 +4,44 @@
   color: red;
 }
 
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 200px;
+}
+
+.nav-links div {
+  flex: 1;
+  flex-basis: 300px;
+  height: 300px;
+  margin: 20px;
+  border-radius: 30px;
+  background-image: url(/Users/robertthome/professional/Portfolio/my-portfolio/src/images/anime.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 100px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+@media (max-width: 812px) {
+  .nav-links {
+    display: grid;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .nav-links {
+    display: grid;
+    align-items: center;
+  }
+}
+
 .about {
   animation: fadeIn ease 8s;
   -webkit-animation: fadeIn ease 8s;

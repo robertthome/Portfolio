@@ -8,7 +8,7 @@ const Home = () => {
   return (
     <div className='nav-bar'>
       <div>
-        <p className='typewriter'>Hello, I am Robert Thome.</p> 
+        <p className='typewriter hello'>Hello, I am Robert Thome.</p> 
       </div>
       <Nav />
     </div>
